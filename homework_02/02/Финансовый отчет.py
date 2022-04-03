@@ -1,0 +1,7 @@
+print("Enter 4 numbers:")
+quarter_1 = float(input())
+quarter_2 = float(input())
+quarter_3 = float(input())
+quarter_4 = float(input())
+result = (quarter_1 + quarter_2)/(quarter_3 + quarter_4)
+print(f'{result:.3f}')
